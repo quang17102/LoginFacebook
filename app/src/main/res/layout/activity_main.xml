@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:paddingHorizontal="20dp"
+       android:layout_weight="3"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <RelativeLayout
+
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <ImageView
+               android:src="@drawable/logo"
+               android:layout_width="100dp"
+               android:layout_height="100dp">
+           </ImageView>
+       </RelativeLayout>
+       <RelativeLayout
+           android:layout_marginRight="0dp"
+           android:gravity="center_vertical"
+           android:layout_weight="1"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <Button
+                android:layout_alignParentRight="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/my_button_bg"
+               android:text="Đăng nhâp"
+               android:textColor="#000000"
+               android:textAllCaps="false">
+
+           </Button>
+       </RelativeLayout>
+
+   </LinearLayout>
+
+    <LinearLayout
+
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_weight="2"
+        android:textColor="#000000"
+        android:textAllCaps="true"
+        android:text="Đăng nhập"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    </TextView>
+
+        <EditText
+            style="@android:style/Widget.Holo.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:hint="Tên đăng nhập">
+
+        </EditText>
+
+        <EditText
+            style="@android:style/Widget.Holo.Light.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:hint="Mật khẩu">
+
+        </EditText>
+
+        <LinearLayout
+
+            android:layout_weight="2"
+
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/Login_Fb"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btn_background_fb"
+                android:gravity="center"
+                android:text="f"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/Login_Gm"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/btn_background_fb"
+                android:gravity="center"
+                android:text="G"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FFFFFF"></Button>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/btn_background"
+                android:text="Đăng nhập"
+                android:textColor="#FF8000"
+                android:textAllCaps="false">
+
+            </Button>
+
+            <Button
+                android:background="@drawable/btn_background"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng ký"
+                android:textColor="#FF8000"
+                android:textAllCaps="false">
+
+            </Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_weight="2.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textSize="12dp"
+            android:textAllCaps="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H5GAME - CỔNG GAME HTML5 ĐA NỀN TẢNG PC VÀ MOBILE" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Copyright by GOSU Online @2019"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginHorizontal="20dp"
+        android:orientation="horizontal"
+        android:background="#F2F2F2"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+
+                android:background="@drawable/button"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/orange1"
+                android:paddingTop="20dp"
+                android:text="Tài khoản"
+                android:textColor="#FF8000" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+
+                android:background="@drawable/button"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/card"
+                android:paddingTop="20dp"
+                android:text="Nạp thẻ"
+                android:textColor="#FF8000" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/button"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:drawableTop="@drawable/support1"
+                android:paddingTop="20dp"
+                android:text="Hỗ trợ"
+                android:textColor="#FF8000" />
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
